@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    text-align: center;
+}
+.timer{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.start{
+    background-color: green;
+    color: white;
+}
+.stop{
+    background-color: red;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size: 1.2em;
+    margin: 5px 0;
+}
